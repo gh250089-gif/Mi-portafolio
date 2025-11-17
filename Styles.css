@@ -1,13 +1,17 @@
 body {
+
     font-family: Arial, sans-serif;
-    background-color:  #e9eff5;
-    color: #333;
+    background-color:  #0b4988;
+    opacity:  1;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+
+
 .cv-container {
-    width: 90%;
+  width: 90%;
   max-width: 700px;
   margin: 40px auto;
   background-color: #fff;
@@ -19,7 +23,7 @@ body {
   header {
     text-align: center;
     border-bottom: 2px solid #0078d7;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
 
     flex: column;
     justify-content: space-between;
@@ -30,20 +34,66 @@ body {
    
 
   .FOTO {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border: 4px solid #0078d7;
+    border: 4px solid #ffffff;
     margin-bottom: 20px;
+
 
   }
 
   .info {
-    margin-bottom: 30px;
-    width: 100%;
+    background-color: #dddddd;
+    color: black;
+    text-align:center;
+    margin: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px;
+    border: 9px solid #687580;
+    padding: 5px;
 
-    border-radius: 10%;
-    border: 2px solid #0078d7;
+  }
+
+  .habilidades {
+    background-color: #dddddd;
+    color: black;
+    text-align:center;
+    margin: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px;
+    border: 9px solid #687580;
+    padding: 5px;
+
+  }
+
+  .experiencia {
+    background-color: #dddddd;
+    color: black;
+    text-align:center;
+    margin: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px;
+    border: 9px solid #687580;
+    padding: 5px;
+
+  }
+
+  .educacion {
+    background-color: #dddddd;
+    color: black;
+    text-align:center;
+    margin: 25px;
+    width: 50%;
+    height: 50%;
+    border-radius: 35px;
+    border: 9px solid #687580;
+    padding: 5px;
+  
+
   }
 
 
