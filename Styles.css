@@ -6,6 +6,9 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
@@ -21,8 +24,11 @@ body {
   }
 
   header {
+    background-color: rgb(0, 0, 0);
     text-align: center;
-    border-bottom: 2px solid #0078d7;
+    margin-bottom: 10px;
+
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 2px;
 
     flex: column;
@@ -44,6 +50,11 @@ body {
   }
 
 
+  
+
+
+
+
 ul {
   
   list-style-type: none;
@@ -56,10 +67,10 @@ ul {
     color: black;
     text-align:center;
     margin: 25px;
-    width: 50%;
+    width: 25%;
     height: 50%;
     border-radius: 35px;
-    border: 9px solid #687580;
+    border: 5px solid #687580;
     padding: 5px;
 
   }
@@ -69,11 +80,16 @@ ul {
     color: black;
     text-align:center;
     margin: 25px;
-    width: 50%;
+    width: 25%;
     height: 50%;
     border-radius: 35px;
-    border: 9px solid #687580;
+    border: 5px solid #687580;
     padding: 5px;
+
+
+    flex:content;
+    justify-content: space-between; 
+    margin-bottom: 1rem
 
   }
 
@@ -82,12 +98,11 @@ ul {
     color: black;
     text-align:center;
     margin: 25px;
-    width: 50%;
+    width: 25%;
     height: 50%;
     border-radius: 35px;
-    border: 9px solid #687580;
+    border: 5px solid #687580;
     padding: 5px;
-
   }
 
   .educacion {
@@ -95,10 +110,10 @@ ul {
     color: black;
     text-align:center;
     margin: 25px;
-    width: 50%;
+    width: 25%;
     height: 50%;
     border-radius: 35px;
-    border: 9px solid #687580;
+    border: 5px solid #687580;
     padding: 5px;
   
 
