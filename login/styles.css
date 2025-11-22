@@ -1,8 +1,8 @@
 :root{
-  --bg:#2727278f;
+  --bg:#2a8507b2;
   --card:#ffffff;
-  --accent:#3b82f6;
-  --accent-dark:#2b6fd8;
+  --accent:#60f63b;
+  --accent-dark:#2bd82b;
   --text:#0f1724;
   --muted:#6b7280;
   --danger:#ef4444;
@@ -68,7 +68,7 @@ input:focus{
   padding:8px;
   border-radius:8px;
 }
-.password-wrap button:focus{outline:2px solid rgba(59,130,246,0.2)}
+.password-wrap button:focus{outline:2px solid rgba(0, 57, 148, 0.2)}
 
 /* error */
 .error{
