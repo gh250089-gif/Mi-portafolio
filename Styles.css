@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:  #0b4988;
+    opacity:  1;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+
+  
+
+}
+
+
+.usuario {
+      width: 5%; 
+    min-width: 500px;
+    background-color: #569af3;
+    border-color: #ffffff;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-right: 50;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    padding: 15px;
+    box-shadow: 0 8px 10px rgba(5, 10,30, 0.9); 
+  
+
+
+}
+
+
+.cv-container {
+ text-align:justify ;
+
+ display: flex;
+  flex-wrap: wrap;       
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.header.foto-container {
+     width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+.info, .habilidades, .experiencia, .educacion {
+    width: 5%;
+    min-width: 250px;
+    background-color: #569af3;
+    border-color: #ffffff;
+    border-radius: 50px;
+    margin-bottom: 65px;
+    padding: 15px;
+    box-shadow: 0 8px 10px rgba(5, 10,30, 0.9);
+  
+}
