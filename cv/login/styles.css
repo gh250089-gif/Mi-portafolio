@@ -1,0 +1,103 @@
+:root{
+  --bg:#2a8507b2;
+  --card:#ffffff;
+  --accent:#60f63b;
+  --accent-dark:#2bd82b;
+  --text:#0f1724;
+  --muted:#6b7280;
+  --danger:#ef4444;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial, sans-serif;background:var(--bg);color:var(--text)}
+
+.page{
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  padding:24px;
+}
+
+/* Tarjeta */
+.card{
+  width:100%;
+  max-width:420px;
+  background:var(--card);
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(2,6,23,0.08);
+  padding:28px;
+  border:1px solid rgba(15,23,36,0.04);
+}
+
+/* Titulos */
+.card h1{
+  margin:0 0 18px 0;
+  font-size:22px;
+  letter-spacing:0.2px;
+}
+
+/* Form */
+form{display:flex;flex-direction:column;gap:12px}
+label{font-size:13px;color:var(--muted)}
+input[type="email"], input[type="password"], input[type="text"]{
+  width:100%;
+  padding:12px 12px;
+  border-radius:8px;
+  border:1px solid rgba(15,23,36,0.08);
+  background: #fff;
+  font-size:15px;
+  outline:none;
+}
+input:focus{
+  box-shadow:0 4px 12px rgba(59,130,246,0.12);
+  border-color:var(--accent);
+}
+
+/* password wrapper para botón mostrar */
+.password-wrap{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+.password-wrap input{flex:1}
+.password-wrap button{
+  border:0;
+  background:transparent;
+  cursor:pointer;
+  font-size:18px;
+  padding:8px;
+  border-radius:8px;
+}
+.password-wrap button:focus{outline:2px solid rgba(0, 57, 148, 0.2)}
+
+/* error */
+.error{
+  color:var(--danger);
+  font-size:13px;
+  min-height:18px;
+}
+
+/* boton */
+.btn{
+  margin-top:6px;
+  background:linear-gradient(180deg,var(--accent),var(--accent-dark));
+  color:white;
+  padding:12px;
+  border-radius:10px;
+  border:0;
+  cursor:pointer;
+  font-weight:600;
+  font-size:15px;
+}
+.btn:active{transform:translateY(1px)}
+.btn:disabled{opacity:.6;cursor:not-allowed}
+
+/* links */
+.links{display:flex;justify-content:flex-end;margin-top:6px}
+.links a{font-size:13px;color:var(--accent);text-decoration:none}
+
+/* responsivo */
+@media (max-width:420px){
+  .card{padding:18px}
+  .card h1{font-size:20px}
+}
