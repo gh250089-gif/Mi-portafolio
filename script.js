@@ -1,6 +1,6 @@
 alert('ESTA ES LA PRIMERA PRUEBA DE ALERTA');
 alert('segunda prueba de alerta');
- alert('segunda prueba de alerta');
+ 
 
 
 console.log('Hello'.length);
